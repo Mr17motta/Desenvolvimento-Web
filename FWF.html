@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fun With Flags</title>
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            color:white;
+            text-align: center;
+            background-color: #263f3f ;
+            margin: 50px 50px 0 50px;
+            display: flex;
+            flex-direction: column;
+        }
+        .main{
+            flex: 1;
+        }
+
+        .logo{
+            width: 3rem;
+            position: relative;
+            padding-left: 2px;
+        }
+
+        h1{
+            font-size: 5rem;
+            margin-top: 0px;
+            color: white;
+        }
+
+        h1 > #one{
+            font-style:oblique;
+            color: red;
+        }
+        h1 > #two{
+            font-style:oblique;
+            color: black;   
+        }
+        h1 > #three{
+            font-style:oblique;
+            color: yellow;
+        }
+        .img-flag{
+            height: 200px;
+            width: 300px;
+            margin: 50px;
+        }
+        .card{
+            width: 40%;
+        }
+        .left{
+            float: left;
+        }
+        .right{
+            float: right;
+        }
+        footer{
+            clear: both;
+            font-size: 0.8rem;
+            text-align: right;
+            float: right;
+        }
+
+        @media(max-width:680px){
+            .card{
+                width: 100%;
+                display: block;
+                margin-bottom: 30px;
+                text-align: justify;
+            }
+            
+            .card img-flag{
+                margin-bottom: 10px;
+                width: 100%;
+                display: inline;
+                object-fit: cover;
+            }
+            .logo{
+                width: 3rem;
+            }
+        }
+
+    </style>
+</head>
+    <body> 
+        <div class="main">
+
+            <h1>Diversão c<spam><img class="logo" src="./png-clipart-sheldon-cooper-t-shirt-bazinga-hoodie-bazinga-text-logo.png"/></spam>m <spam id="one">Ban</spam><spam id="two">dei</spam><spam id="three">ras</spam></h1>
+           
+            <div class="left card">
+                <a href="./ArgFlag.html"><img class="img-flag" src="./argentina.jpg" alt="Argentina's Flag"/></a>
+                <h2 class="card-title">Curiosidade:</h2>
+                <p>A bandeira elaborada por Manuel Belgrano, só se tornou um símbolo argentino oficial no dia 20 de julho de 1816, data em que ocorreu a Declaração de Independência da Argentina.</p>
+            </div>
+            
+            <div class="right card">      
+                <a href="./BelFlag.html"><img class="img-flag" src="./bandeira-da-belgica.png" alt="Belgium's Flag"/></a>
+                <h2 class="card-title">Curiosidade:</h2>
+                <p>As cores da bandeira da Bélgica foram inspiradas em símbolos oficiais da região de Brabante, importante território histórico europeu que, na atualidade, pertence à Bélgica e aos Países Baixos. </p>
+            </div>
+
+            <div class="left card">      
+                <a href="./jamaica.html"><img class="img-flag" src="./bandeira-da-jamaica-significados.png" alt="Belgium's Flag"/></a>
+                <h2 class="card-title">Curiosidade:</h2>
+                <p>A bandeira jamaicana é a bandeira nacional da Jamaica,um país Caribenho. Foi adotada no dia 6 de agosto de 1962, também Dia de Independência da Jamaica, tendo o país conquistado a independência da Federação das Índias Ocidentais, protegida pelos britânicos.</p>
+            
+            </div>        
+
+            <div class="right card">      
+                <a href="./grecia.html"><img class="img-flag" src="./grecia.jpg" alt="Belgium's Flag"/></a>
+                <h2 class="card-title">Curiosidade:</h2>
+                <p>O azul simboliza o mar e o céu da Grécia, enquanto o branco é relacionado com as ondas do mar e as nuvens do céu. A simbologia destas cores remete à importância que o grego dá por seu território, fonte de orgulho nacional e que também atrai turistas do mundo todo por sua beleza.</p>
+            </div>
+
+        </div>    
+        <footer>
+            <p>Copyright © 2015|Dr. Sheldon Cooper</p>
+        </footer>
+    </body>
+</html>
